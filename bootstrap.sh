@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT_DIR="${ROOT_DIR:-/opt/vps_test}"
 if ! command -v git >/dev/null 2>&1; then
   apt-get update
-  apt-get install -y git curl wget python3 python3-venv python3-pip ca-certificates jq bc tar gzip unzip xz-utils lsb-release procps iproute2 net-tools dnsutils traceroute netcat-openbsd locales bash
+  apt-get install -y git curl wget python3.12-venv python3 python3-venv python3-pip ca-certificates jq bc tar gzip unzip xz-utils lsb-release procps iproute2 net-tools dnsutils traceroute netcat-openbsd locales bash
 fi
 
 if [ ! -d "$ROOT_DIR/.git" ]; then
