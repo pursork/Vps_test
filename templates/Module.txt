@@ -1,0 +1,32 @@
+1. bash <(curl -sL https://run.NodeQuality.com)
+脚本输出内容
+2. curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh
+脚本输出内容
+3. bash <(curl -L -s check.unlock.media)
+脚本输出内容
+4. bash <(curl -s https://raw.githubusercontent.com/lmc999/TikTokCheck/main/tiktok.sh)
+脚本输出内容
+5. wget -qO- https://github.com/yeahwu/check/raw/main/check.sh | bash
+脚本输出内容
+6. bash <(curl -sL Media.Check.Place)
+脚本输出内容
+7. bash <(curl -L -s https://github.com/1-stream/RegionRestrictionCheck/raw/main/check.sh)
+脚本输出内容
+8. bash <(curl -sL IP.Check.Place)
+脚本输出内容
+9. wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0/nf_linux_amd64 && chmod +x nf && ./nf
+脚本输出内容
+10. wget -qO- bench.sh | bash
+脚本输出内容
+11. curl https://raw.githubusercontent.com/ludashi2020/backtrace/main/install.sh -sSf | sh
+脚本输出内容
+12. wget -N --no-check-certificate https://raw.githubusercontent.com/Chennhaoo/Shell_Bash/master/AutoTrace.sh && chmod +x AutoTrace.sh && bash AutoTrace.sh
+脚本输出内容
+13. bash <(curl -sL res.yserver.ink/taier.sh)
+脚本输出内容
+14. wget -qO- nws.sh | bash
+脚本输出内容
+15. bash <(curl -sL bash.icu/speedtest)
+脚本输出内容
+16. wget -O chat.sh https://raw.githubusercontent.com/Netflixxp/chatGPT/main/chat.sh && chmod +x chat.sh && clear && ./chat.sh
+脚本输出内容

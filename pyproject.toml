@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vps-test"
+version = "0.1.0"
+description = "Automated VPS benchmark collection and report rendering"
+requires-python = ">=3.11"
+dependencies = [
+  "pexpect>=4.9.0",
+  "paramiko>=3.5.1",
+  "requests>=2.32.3",
+]
+
+[tool.setuptools]
+packages = ["vps_test"]
+
+[tool.ruff]
+line-length = 100
