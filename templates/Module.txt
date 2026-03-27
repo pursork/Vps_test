@@ -1,32 +1,32 @@
-1. bash <(curl -sL https://run.NodeQuality.com)
+1. NodeQuality
 脚本输出内容
-2. curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh
+2. ECS 综合测试
 脚本输出内容
-3. bash <(curl -L -s check.unlock.media)
+3. 流媒体解锁检测（check.unlock.media）
 脚本输出内容
-4. bash <(curl -s https://raw.githubusercontent.com/lmc999/TikTokCheck/main/tiktok.sh)
+4. TikTok 解锁检测
 脚本输出内容
-5. wget -qO- https://github.com/yeahwu/check/raw/main/check.sh | bash
+5. yeahwu 流媒体检测
 脚本输出内容
-6. bash <(curl -sL Media.Check.Place)
+6. 流媒体解锁检测（Media.Check.Place）
 脚本输出内容
-7. bash <(curl -L -s https://github.com/1-stream/RegionRestrictionCheck/raw/main/check.sh)
+7. 流媒体解锁检测（1-stream）
 脚本输出内容
-8. bash <(curl -sL IP.Check.Place)
+8. IP 质量检测（IP.Check.Place）
 脚本输出内容
-9. wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0/nf_linux_amd64 && chmod +x nf && ./nf
+9. Netflix 解锁检测（nf）
 脚本输出内容
-10. wget -qO- bench.sh | bash
+10. bench.sh 综合跑分
 脚本输出内容
-11. curl https://raw.githubusercontent.com/ludashi2020/backtrace/main/install.sh -sSf | sh
+11. 回程路由安装（backtrace）
 脚本输出内容
-12. wget -N --no-check-certificate https://raw.githubusercontent.com/Chennhaoo/Shell_Bash/master/AutoTrace.sh && chmod +x AutoTrace.sh && bash AutoTrace.sh
+12. AutoTrace 回程路由追踪
 脚本输出内容
-13. bash <(curl -sL res.yserver.ink/taier.sh)
+13. Taier 测速
 脚本输出内容
-14. wget -qO- nws.sh | bash
+14. nws 网络测试
 脚本输出内容
-15. bash <(curl -sL bash.icu/speedtest)
+15. bash.icu 测速
 脚本输出内容
-16. wget -O chat.sh https://raw.githubusercontent.com/Netflixxp/chatGPT/main/chat.sh && chmod +x chat.sh && clear && ./chat.sh
+16. ChatGPT 可用性检测
 脚本输出内容
