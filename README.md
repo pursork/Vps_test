@@ -17,7 +17,7 @@
 
 Debian 13 一键执行入口：
 
-- `bash <(curl -fsSL https://raw.githubusercontent.com/pursork/Vps_test/main/bootstrap.sh)`
+- `apt update && apt install curl -y && bash <(curl -fsSL https://raw.githubusercontent.com/pursork/Vps_test/main/bootstrap.sh)`
 
 工作流：
 
