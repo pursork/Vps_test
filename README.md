@@ -1,6 +1,12 @@
 # Vps_test
 
-自动化执行vps测试脚本，并自动输出形成测试报告
+懒人专用，自动化执行vps测试脚本，并自动输出形成测试报告
+
+> 写在前面，~~娱乐性质脚本~~（该脚本依赖于上游[16个脚本的维护](https://github.com/pursork/Vps_test/blob/main/raw/metadata.json)），相当于省去了复制粘贴运行16个测试脚本，不建议投入生产环境（~~后期较大概率不会维护~~）。
+
+省流：Debian 13 一键命令：
+
+- `apt update && apt install curl -y && bash <(curl -fsSL https://raw.githubusercontent.com/pursork/Vps_test/main/bootstrap.sh)`
 
 - 自动抓取 16 个常用测试脚本到 `raw/`
 - 自动识别脚本来源、依赖、交互风险
@@ -15,11 +21,7 @@
 - `python tools/run_suite.py --local`
 - `python tools/run_remote_hosts.py --hosts-file hosts.json`
 
-Debian 13 一键执行入口：
-
-- `apt update && apt install curl -y && bash <(curl -fsSL https://raw.githubusercontent.com/pursork/Vps_test/main/bootstrap.sh)`
-
-工作流：
+其它工作流：
 
 1. 本地抓取并分析源脚本  
    `python tools/fetch_raw_sources.py`  
@@ -43,4 +45,4 @@ Debian 13 一键执行入口：
 - `AutoTrace`：回车走默认测试项
 - `taier.sh`：固定选择 `1`，即大陆三网单线程 IPv4
 
-> 目前仅在Debian13完成测试
+> 目前仅在Debian13完成测试，20260328测试成功。
